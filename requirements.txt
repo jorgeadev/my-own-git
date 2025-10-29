@@ -1,0 +1,2 @@
+# My Own Git - Requirements
+# No external dependencies required for core functionality
