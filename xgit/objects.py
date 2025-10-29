@@ -42,8 +42,7 @@ class GitCommit(GitObject):
         return "commit"
 
 
-def hash_object(data: bytes, obj_type: str = "blob", write: bool = False, 
-                git_dir: Optional[Path] = None) -> str:
+def hash_object(data: bytes, obj_type: str = "blob", write: bool = False, git_dir: Optional[Path] = None) -> str:
     """
     Hash an object and optionally write it to the object database.
     

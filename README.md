@@ -1,4 +1,4 @@
-# my-own-git
+# xgit
 
 A basic Python implementation of Git core features. This project implements fundamental Git operations including repository initialization, object storage, and basic commands.
 
@@ -14,8 +14,8 @@ A basic Python implementation of Git core features. This project implements fund
 Clone the repository and install in development mode:
 
 ```bash
-git clone https://github.com/jorgeadev/my-own-git.git
-cd my-own-git
+git clone https://github.com/jorgeadev/xgit.git
+cd xgit
 pip install -e .
 ```
 
@@ -68,7 +68,7 @@ python -m unittest discover tests
 ## Project Structure
 
 ```
-my-own-git/
+xgit/
 ├── mygit/              # Main package
 │   ├── __init__.py     # Package initialization
 │   ├── cli.py          # Command-line interface

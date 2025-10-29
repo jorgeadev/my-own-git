@@ -6,9 +6,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="my-own-git",
+    name="xgit",
     version="0.1.0",
-    author="Jorge A",
+    author="Jorge Gomez",
     description="A basic Python implementation of Git core features",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -28,7 +28,7 @@ setup(
     python_requires=">=3.8",
     entry_points={
         "console_scripts": [
-            "mygit=mygit.cli:main",
+            "xgit=xgit.cli:main",
         ],
     },
 )
